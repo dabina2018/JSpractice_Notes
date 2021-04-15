@@ -1,0 +1,63 @@
+var thur = [];
+//console.log(typeof thur); //object
+//console.log(thur.length); //0
+
+/*
+  multi type array
+  Defining array with multiple types in TypeScript
+  Use a union type (string|number)[]
+*/
+
+var multiTypeArray = [0, 1, 'two', function() { return 3; }, {value1: 4, value2: 5}, [6, 7]];
+/*
+var tenEmptyElementArray = new Array(10);
+console.log(tenEmptyElementArray.length);
+tenEmptyElementArray.push(0);
+tenEmptyElementArray.push(1);
+tenEmptyElementArray.push(2);
+tenEmptyElementArray.push(3);
+tenEmptyElementArray.push(4);
+tenEmptyElementArray.push(5,6,7,8,9);
+console.log(tenEmptyElementArray);
+
+tenEmptyElementArray.length = 5;
+console.log(tenEmptyElementArray.length);
+console.log(tenEmptyElementArray);
+*/
+
+/*
+var array = ['peanut', 'butter', 'and', 'jelly'];
+var subArr = array.slice(3, 0); //startindex, endindex
+console.log(subArr); //peanut
+*/
+
+/*
+var array = [1, 2];
+array.unshift(3);
+console.log(array);
+array.shift();
+console.log(array);
+*/
+//--------------------------------------------------------------------------------
+var map = new Map([['a', 1], ['b', 2]]);
+
+map.set("c", 3); // adds k-v pair to map
+//console.log(map.get('c')); //3
+//console.log(map.entries()); //prints all k-v pairs
+//console.log(map);   //prints all k-v pairs k=>v
+
+
+//var key = {x:"hello"};
+console.log(map.entries());
+console.log(typeof map);
+
+// A regular JavaScript object always treats the key as a string.
+//Even when you pass it a primitive or object,
+  //it internally converts the key into a string:
+
+
+const funObj = {};   // Create an empty object
+// add a property. Note, passing the key as a number.
+funObj[360] = 'My House Number';
+// It returns true because the number 360 got converted into the string '360' internally!
+console.log(funObj[360] === funObj['360']);
