@@ -32,3 +32,16 @@ function toBeTruthy() {
 -------------------------------------------------------------------------------------------------------
 // https://www.testim.io/blog/jasmine-js-a-from-scratch-tutorial-to-start-testing/
   
+--MOCHA... maybe  
+-------------------------------------------------------------------------------------------------------
+    //https://www.w3resource.com/jest/expect.php
+  
+  /*
+  The difference is beforeEach()/afterEach() automatically run before and after each tests, which 
+  1. removes the explicit calls from the tests themselves, and 
+  2. invites inexperienced users to share state between tests.
+  Tests should be explicit, and tests should never share state. 
+  So why use tools that introduce magic (making it harder to understand a particular test) and invite test coupling?
+*/
+ 
+
