@@ -26,3 +26,6 @@ var ourArray3 = [18, 64, 99];
 ourArray3[1] = 45;  // new array equals [18, 45, 99]
 
 console.log(ourArray3)
+
+///                             ///Next///                               ///
+//Array functions
