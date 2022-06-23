@@ -1,0 +1,23 @@
+//Example
+var ourArray = ["Stimpson", "J", "cat"];
+
+//Functions
+ourArray.push(["happy", "joy"]); // ourArray now equals ["Stimpson", "J", "cat", ["happy", "joy"]])
+var removedFromOurArray = ourArray.pop(); // it will remove last element
+var removedFromFrontOurArray = ourArray.shift(); // it will  remove first element
+var unshiftOurArray = ourArray.unshift("happy");
+
+
+//Example 2
+var myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line. 
+myArray.push(["dog", 4])
+var popMyArray = myArray.pop();
+var shiftMyArray = myArray.shift();
+var unshiftOurArray = myArray.unshift();
+
+console.log(ourArray);
+
+// Example 3
+var myList = [["cereal", 3], ["milk, 2"], ["bananas", 3], ["tea", 1]]
